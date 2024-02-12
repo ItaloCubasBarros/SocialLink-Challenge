@@ -1,0 +1,74 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    flex-direction: column;
+}
+
+.Panel{
+    background-color: hsl(0, 0%, 12%);
+    width: 380px;
+    height: 650px;
+    max-width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.Avatar{
+    margin-bottom: 25px;
+    width: 120px;
+    border-radius: 100%;
+}
+
+
+.Name{
+    margin: 0 auto;
+    color: white;
+    font-size: 42px;
+    font-weight: 600px;
+}
+
+.Region{
+    margin: 0 auto;
+    font-weight: 500px;
+    font-size: 22px;
+    color: hsl(75.45deg 46.98% 57.84%);
+}
+
+.Description{
+    margin: 0 auto;
+    margin: 25px 0;
+    color: white;
+    font-size: 15px;
+}
+
+.Links{
+    width: 95%;
+}
+
+.Links a{
+    
+    display: block;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    width: 95%;
+    padding: 15px 0;
+    border-radius: 9px;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.Links a:hover{
+    background-color:hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
